@@ -1,0 +1,90 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+/* =========================
+   HTML AND BODY
+========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  background: #fffaf5;
+
+  color: #333;
+
+  line-height: 1.6;
+}
+
+/* =========================
+   ROOT
+========================= */
+
+#root {
+  min-height: 100vh;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+  font-family: inherit;
+}
+
+/* =========================
+   IMAGES
+========================= */
+
+img {
+  max-width: 100%;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+  color: inherit;
+}
+
+/* =========================
+   SELECTION
+========================= */
+
+::selection {
+  background: #ffccbc;
+
+  color: #333;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  body {
+    font-size: 14px;
+  }
+
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2.brand-name {
+  font-family: "Playfair Display", serif;
+}
